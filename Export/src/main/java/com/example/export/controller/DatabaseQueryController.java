@@ -9,9 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Connection;
-import com.example.demo.model.DatabaseQuery;
-import com.example.demo.model.DatabaseSource;
+import com.example.export.model.Connection;
+import com.example.export.model.DatabaseQuery;
 
 @RestController
 @RequestMapping("/dbquery")
